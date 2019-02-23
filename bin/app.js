@@ -119,7 +119,7 @@ program
 .action(function(){
     log(` this command automatically connects to shell of  local database(only if available) when no remote connection is specified`.bgBlue.bold)
     
- inquirer.prompt([{type:'input',name:'shellpath',message:'Enter the path to the mongo shell:',when:os.platform().includes('win')},{type:'input',name:'url',message:'Enter remote database connection string:'}])
+ inquirer.prompt([{type:'input',name:'shellpath',message:'Enter the path to the mongo shell:',when:()=>os.platform().includes('win')},{type:'input',name:'url',message:'Enter remote database connection string:'}])
 .then(ans => {
     
     remote(ans.url, ans.shellpath)
