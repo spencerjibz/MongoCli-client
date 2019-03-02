@@ -9,6 +9,7 @@ const {log} = console
 const {exec} = require('child_process')
 const inquirer = require('inquirer')
 const os = require('os')
+
 // alternative logic for darwin platform 
 let ForDarwin = () => {
 
@@ -20,6 +21,7 @@ let ForDarwin = () => {
         log(colors.blue(done))
     })
 }
+exports.startDarwin = ForDarwin
 
 // program that starts by database
 // mymongo start
@@ -136,16 +138,15 @@ program
 program
 .command('eval <cmd>')
 .alias('ev')
+.option("-d,--db[value]",'name of the database')
 .description('run mongo shell commmand parsed as arguements')
-.action(cmd=>{
-    inquirer.prompt({type:'input',name:'dbname',message:'chooose your preferred database'})
-    .then(ans=>{
-      
-  eval(ans.dbname,cmd)
+.action((cmd,options)=>{
+    
+  eval(options.db,cmd)
 
 
 
-    })
+    
 })
 
 program

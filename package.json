@@ -6,6 +6,9 @@
   "bin": {
     "mongoCli": "./bin/app.js"
   },
+  "scripts": {
+    "test": "jest"
+  },
   "author": "Spencer Najib",
   "license": "MIT",
   "dependencies": {
@@ -15,6 +18,12 @@
     "inquirer": "^6.2.1",
     "mongo-client": "^0.2.1",
     "mongoose": "^5.4.1",
-    "node-cmd": "^3.0.0"
+    "node-cmd": "^3.0.0",
+    "randomstring": "^1.1.5"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "jest": "^24.1.0",
+    "mocha": "^6.0.1"
   }
 }
