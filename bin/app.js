@@ -138,7 +138,7 @@ program
 program
 .command('eval <cmd>')
 .alias('ev')
-.option("-d,--db[value]",'name of the database')
+.option("-d,--db [value]",'name of the database')
 .description('run mongo shell commmand parsed as arguements')
 .action((cmd,options)=>{
     
