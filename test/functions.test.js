@@ -7,11 +7,18 @@ let IsMac= platform().includes('darwin')
 let {promisify} = require('util')
 let inserter = promisify(insert.insert)
 let generator  = require('randomstring')
+let colors = require('colors')
+const {log} = console
 // test for the platform
 let randSt= generator.generate({length:6,charset:'alphabetic'})
+/*beforeAll(()=>{
+ log(`Before running tests, ensure the database is installed and running`.magenta.bold)
+
+})
+*/
 describe('MongoCli ',()=>{
    // change the timeout setting
-   jest.setTimeout(5000)
+  
     // should list the database available
 it(' should list the database available', () => {
     // expected errs are no mongodb service available
@@ -55,7 +62,7 @@ it('should create a new database successfully',()=>{
 })
 // should delete  databases successfully
 it('should delete a database successfully',()=>{
-    return mongoCli(`dropDb ${randSt}`).then(e => expect(e.includes(randSt)).not.toEqual(true))
+    return mongoCli(`dropDb ${randSt}`).then(e => { return expect(e.includes(randSt)).toEqual(false)})
 })
 // should connect to remote database successfully
 
