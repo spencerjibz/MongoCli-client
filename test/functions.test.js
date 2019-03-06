@@ -42,7 +42,7 @@ return mongoCli(`eval "db.getSiblingDB('test').getCollection('materials').find({
 it('should delete a documents successfully',()=>{
 
 
-return mongoCli(`eval "db.getSiblingDB('test').getCollection('materials').findOneAndDelete({book:'${randSt}'})" -d test"`).then(e => expect(e.includes('unknown mongo shell command')).toEqual(false))
+return mongoCli(`eval "db.getSiblingDB('test').getCollection('materials').findOneAndDelete({book:'${randSt}'})" -d test`).then(e => expect(e.includes('unknown mongo shell command')).toEqual(false))
 })
 // it should delete  a collection 
 it('should delete a collection',()=>{
