@@ -11,11 +11,11 @@ let colors = require('colors')
 const {log} = console
 // test for the platform
 let randSt= generator.generate({length:6,charset:'alphabetic'})
-/*beforeAll(()=>{
+beforeAll(()=>{
  log(`Before running tests, ensure the database is installed and running`.magenta.bold)
 
 })
-*/
+
 describe('MongoCli ',()=>{
    // change the timeout setting
   
