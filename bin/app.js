@@ -9,7 +9,12 @@ const {log} = console
 const {exec} = require('child_process')
 const inquirer = require('inquirer')
 const os = require('os')
-
+let ErrorHandler = require('all-error-handler')
+// error handler 
+new ErrorHandler(v=>{
+    log(colors.red.bold(`command execution failed, check your parameters(arguments)`))
+    process.exit()
+})
 // alternative logic for darwin platform 
 let ForDarwin = () => {
 
@@ -221,6 +226,7 @@ program
         })
 // let the program parse the CLI arguments
 program.parse(process.argv)
+// error handler 
 
 // in case of no args
 
