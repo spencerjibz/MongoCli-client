@@ -4,6 +4,10 @@
  ### Requirements for usage
  - Nodejs  (v6 and higher) installed
  - Mongodb (local)
+ - git
+ ### Installation
+ 1. Clone repo / download the zip
+    Run ``` git clone https://github.com/spencerjibz/mongoCli-client,git ```
  ### Features
  - All CRUD operations with Mongodb 
  - Connection and management of the remote database via the remote command below
@@ -13,7 +17,7 @@ Options:
   -h, --help                         output usage information
 
 Commands:
-  start|s                             starts the mongo service for windows platform or checks for service on linux and MacOs
+  start|s                            starts the mongo service for windows platform or checks for service on linux and MacOs
   kill|k                             stops the mongodb service
   list|ls                            lists the databases available for usage
   documents|docs [options] <dbname>  returns all the documents in specific collection of the defined  database
