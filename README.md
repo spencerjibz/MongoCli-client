@@ -39,4 +39,4 @@
  ```  npm test ```
  
 ### License
-  MIT
+  [MIT](https://github.com/spencerjibz/mongoCli-client/blob/master/LICENSE)
