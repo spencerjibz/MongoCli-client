@@ -13,7 +13,8 @@
  2. Install the project dependancies <br>
  Run ``` cd  mongoCli-client && npm install  ```
  3. Install the App globally and check out all its functionality <br> 
- Run ``` npm install  -g ./  && mongoCli  ```
+ Run ``` npm install  -g ./  && mongoCli  ``` 
+ 
  ### Features
  - All CRD(Create,Read and Delete) operations with Mongodb 
  - Connection and management of the remote database via the remote command below
@@ -33,6 +34,9 @@
  These operations illustrated below are only possible if mongodb service is running.
  ![](https://github.com/spencerjibz/mongoCli-client/blob/master/assets/Crd.gif)
  Enjoy the rest of the features
+### Testing
+ To test if the app passes all tests ensure that mongodb is running then run the command.<br>
+ ```  npm test ```
  
 ### License
   MIT
