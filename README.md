@@ -25,5 +25,5 @@
  ![](https://github.com/spencerjibz/mongoCli-client/blob/master/assets/startCommand.gif)
 2.**Remote Command**: <br>
  This command was designed to connect to a remote database or the local mongo shell. you'll be prompted to insert connection string.
- if no connection is inserted, the App connects you to the mongoShell. Note: windows users shall must inserted the mongo-bin path when prompted for this command to work. The command is illustrated in gif below.
- ! [](https://github.com/spencerjibz/mongoCli-client/blob/master/assets/remoteCommand.gif)
+ if no connection is inserted, the App connects you to the mongoShell. Note: windows users shall must inserted the mongo-bin path when prompted for this command to work. The command is illustrated in gif below.<br>
+ ![](https://github.com/spencerjibz/mongoCli-client/blob/master/assets/remoteCommand.gif)
