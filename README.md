@@ -13,7 +13,7 @@ Options:
   -h, --help                         output usage information
 
 Commands:
-  start|s                             starts the mongo service for windows platform or checks if the service is  running on other platforms
+  start|s                             starts the mongo service for windows platform or checks for service on linux and MacOs
   kill|k                             stops the mongodb service
   list|ls                            lists the databases available for usage
   documents|docs [options] <dbname>  returns all the documents in specific collection of the defined  database
@@ -29,6 +29,5 @@ Commands:
   dropDb <dbname>                     drops the specified database
   stats <dbname>                     returns of the statistics of the named database
   mkDb <dbname>                      creates  the specified database
-
 
 ```
