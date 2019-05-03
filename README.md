@@ -6,11 +6,11 @@
  - Mongodb (local)
  - Git
  ### Installation
- 1. Clone repo / download the zip <br>
+ 1. Clone repo / download the zip <br> <br>
  Run ``` git clone https://github.com/spencerjibz/mongoCli-client.git ```
- 2. Install the project dependancies <br>
+ 2. Install the project dependancies <br> <br> 
  Run ``` cd  mongoCli-client && npm install  ```
- 3. Install the App globally and check out all its functionality <br>
+ 3. Install the App globally and check out all its functionality <br> <br>
  Run ``` npm install  -g ./  && mongoCli  ```
  ### Features
  - All CRUD operations with Mongodb 
@@ -19,4 +19,5 @@
 ![](https://github.com/spencerjibz/mongoCli-client/blob/master/assets/general.gif)
 
 ### key Facts on Usage
-1. Mongocli
+*** Start Command***: <br> 
+ For windows users.
