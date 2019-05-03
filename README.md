@@ -1,10 +1,11 @@
 ## MongoCli-client
- A simple command-line client for mongodb built on top of mongoose and the native mongodb-driver.
+ A simple command-line client for mongodb built on top of mongoose and the native mongodb-driver.It was designed to simplify usage of mongodb and its tools(shell). Once installed global. No need for a GUI client.
  
  ### Requirements for usage
  - Nodejs  (v6 and higher) installed
  - Mongodb (local)
  - Git
+ - Terminal, bash, cmd or powershell
  ### Installation
  **Note**: App shall be added soon to npm but for the meanwhile, follow the steps below <br>
  1. Clone repo / download the zip <br>
@@ -31,4 +32,7 @@
 3.**CRD operation illustration**<br>
  These operations illustrated below are only possible if mongodb service is running.
  ![](https://github.com/spencerjibz/mongoCli-client/blob/master/assets/Crd.gif)
+ Enjoy the rest of the features
  
+### License
+  MIT
