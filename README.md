@@ -19,7 +19,11 @@
 ![](https://github.com/spencerjibz/mongoCli-client/blob/master/assets/general.gif)
 
 ### key Facts on Usage
-**Start Command**: <br> 
- For windows users, you should know the path to the mongo-bin directory.its better if you installed mongodb manually.<br>
- ![]()
-<img src="https://github.com/spencerjibz/mongoCli-client/blob/master/assets/startCommand.gif" width="600" height="600" />
+**Note**: For all the CRUD commands to work, ensure mongodb is running on the computer<Br>
+1.**Start Command**: <br> 
+ For windows users, you should know the path to the mongo-bin directory. You'll be prompted into insert Its better if you installed mongodb manually.<br>
+ ![](https://github.com/spencerjibz/mongoCli-client/blob/master/assets/startCommand.gif)
+2.**Remote Command**: <br>
+ This command was designed to connect to a remote database or the local mongo shell. you'll be prompted to insert connection string.
+ if no connection is inserted, the App connects you to the mongoShell. Note: windows users shall must inserted the mongo-bin path when prompted for this command to work. The command is illustrated in gif below.
+ ! [](https://github.com/spencerjibz/mongoCli-client/blob/master/assets/remoteCommand.gif)
