@@ -6,15 +6,17 @@
  - Mongodb (local)
  - git
  ### Installation
- 1. Clone repo / download the zip.
+ 1. Clone repo / download the zip:
  Run ``` git clone https://github.com/spencerjibz/mongoCli-client.git ```
- 2. Install the project dependancies 
+ 2. Install the project dependancies:
  Run ``` cd  mongoCli-client && npm install  ```
- 3. Install the App globally and check out all its functionality.
+ 3. Install the App globally and check out all its functionality:
  Run ``` npm install  -g ./  && mongoCli  ```
  ### Features
  - All CRUD operations with Mongodb 
  - Connection and management of the remote database via the remote command below
-### USAGE
+### Usage
 ![](https://github.com/spencerjibz/mongoCli-client/blob/master/assets/general.gif)
 
+### key Facts on Usage
+1. Mongocli
