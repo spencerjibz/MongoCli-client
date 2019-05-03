@@ -21,5 +21,5 @@
 ### key Facts on Usage
 **Start Command**: <br> 
  For windows users, you should know the path to the mongo-bin directory.its better if you installed mongodb manually.<br>
- ![](https://github.com/spencerjibz/mongoCli-client/blob/master/assets/startCommand.gif)
-<img src="https://camo.githubusercontent.com/..." data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
+ ![]()
+<img src="https://github.com/spencerjibz/mongoCli-client/blob/master/assets/startCommand.gif" width="600" height="600" />
