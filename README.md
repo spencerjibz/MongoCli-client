@@ -12,4 +12,4 @@
  - All CRUD operations with Mongodb 
  - Connection and management of the remote database via the remote command below
 ### USAGE
-![](https://github.com/spencerjibz/mongoCli-client/blob/master/assets/general.gif =400x400)
+![](https://github.com/spencerjibz/mongoCli-client/blob/master/assets/general.gif|width=400)
