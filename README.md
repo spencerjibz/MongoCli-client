@@ -35,7 +35,7 @@
  ![](https://github.com/spencerjibz/mongoCli-client/blob/master/assets/Crd.gif)
  Enjoy the rest of the features
 ### Testing
- To test if the app passes all tests ensure that mongodb is running then run the command.<br>
+ Ensure that mongodb is running then run the command.<br>
  ```  npm test ```
  
 ### License
