@@ -4,12 +4,20 @@
  ### Requirements for usage
  - Nodejs  (v6 and higher) installed
  - Mongodb (local)
- - git
+ - Git
  ### Installation
- 1. Clone repo / download the zip
-    Run ``` git clone https://github.com/spencerjibz/mongoCli-client,git ```
+ 1. Clone repo / download the zip <br> <br>
+ Run ``` git clone https://github.com/spencerjibz/mongoCli-client.git ```
+ 2. Install the project dependancies <br> <br> 
+ Run ``` cd  mongoCli-client && npm install  ```
+ 3. Install the App globally and check out all its functionality <br> <br>
+ Run ``` npm install  -g ./  && mongoCli  ```
  ### Features
  - All CRUD operations with Mongodb 
  - Connection and management of the remote database via the remote command below
-### USAGE
-![](https://github.com/spencerjibz/mongoCli-client//assets/mongocli general.gif)
+### Usage
+![](https://github.com/spencerjibz/mongoCli-client/blob/master/assets/general.gif)
+
+### key Facts on Usage
+*** Start Command***: <br> 
+ For windows users.
