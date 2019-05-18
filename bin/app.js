@@ -2,7 +2,7 @@
 const program = require('commander')
 const db = require('../lib/db')
 const colors = require('colors')
-const {list,findAll,findOnly,deleteOne,remote,delCol,createCol,eval,deleteAll,insert,stats,createDb,delDb} = require('../lib/db-client')
+const {list,findAll,findOnly,deleteOne,remote,delCol,createCol,eval,deleteAll,insert,stats,createDb,delDb,UpdateOne} = require('../lib/db-client')
 const {cols} = require('../lib/db-client')
 const {start,kill} = db
 const {log} = console
@@ -186,7 +186,7 @@ program
 .action((cmd,options)=>{
 deleteAll(cmd,options.collection)
 })
-// myapp addto dbname -c users
+// myapp add dbname -c users
 //
 program
 .command('add <dbname>')
@@ -195,6 +195,7 @@ program
 .action((cmd,options)=>{
     inquirer.prompt({type:'editor',name:'docs',message:'Enter  and save  an array or object of documents to insert in editor'})
     .then(ans=>{
+        log(typeof ans.docs)
     
    insert(cmd,options.collection,ans.docs)
  
@@ -202,6 +203,28 @@ program
 
    
     })
+})
+// myapp update <dbname> -c <collection name>
+program
+.command('update <dbname>')
+.alias('up')
+.description('updated a specific document')
+.option("-c,--collection [value]",'collection name')
+.action((cmd,options)=>{
+inquirer.prompt([{type:'input',name:'q_type',message:'filter by:'},
+{type:'input',name:'q_name',message:'Enter query name:'},
+{type:'editor',name:'updated_info',message:'Enter and save an object with  the update formations '}])
+.then(ans=>{
+     let {q_type,q_name,updated_info} = ans 
+      let filter  = {[q_type]:q_name}
+ 
+      let data = JSON.parse(JSON.stringify(updated_info))
+   UpdateOne(cmd,options.collection,filter,updated_info)
+
+
+})
+
+
 })
 // myapp dropDb <dbname>
 program
