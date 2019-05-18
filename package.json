@@ -1,5 +1,5 @@
 {
-  "name": "mongoCli",
+  "name": "mongo-cli",
    "author": "Spencer Najib <spencernajib2@gmail.com>",
   "version": "0.8.0",
   "description": "A simple command Line tool that manages your local or remote MongoDB instance. A client that adds,reads, updates and deletes content as well as other operations ",
