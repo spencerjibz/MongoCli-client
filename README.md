@@ -7,7 +7,7 @@
  ### Installation
  Before you install, ensure you nodejs v4.xx and higher.Command-line tool is available on the npm registry.<br>
  
- ``` npm install mongoCli -g ```
+ ``` npm install mongocli-client -g ```
  
  ### Features
  - All CRUD(Create,Read,Update and Delete) operations with Mongodb 
