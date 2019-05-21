@@ -5,7 +5,7 @@
  - Nodejs  (v4 and higher) installed
  - Mongodb (local)
 ### Installation
- Before you install, ensure you nodejs v4.xx and higher.Command-line tool is available on the npm registry.<br>
+ Before you install, ensure you  have nodejs v4.xx and higher.Command-line tool is available on the npm registry.<br>
  
  ``` npm install mongocli-client -g ```
  
