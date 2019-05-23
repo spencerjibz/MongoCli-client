@@ -57,4 +57,4 @@ Commands:
  ``` npm test ```
 
 ### License
-  [MIT](https://raw.githubusercontent.com/spencerjibz/mongoCli-client/master/LICENSE)
+  [MIT](https://github.com/spencerjibz/mongoCli-client/blob/master/LICENSE)
