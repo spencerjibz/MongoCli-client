@@ -1,7 +1,7 @@
 ## MongoCli-client
  A simple command-line client for mongodb built on top of mongoose and the native mongodb-driver.It was designed to simplify usage of mongodb and its tools(shell). Once installed global. No need for a GUI client.
  
- ### Requirements for usage
+### Requirements for usage
  - Nodejs  (v4 and higher) installed
  - Mongodb (local)
 ### Installation

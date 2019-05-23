@@ -1,7 +1,7 @@
 {
   "name": "mongocli-client",
   "author": "Spencer Najib <spencernajib2@gmail.com>",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "description": "A simple command Line tool that manages your local or remote MongoDB instance. A client that adds,reads, updates and deletes content as well as other operations ",
   "preferGlobal": true,
   "repository": {
@@ -26,6 +26,15 @@
     "node-cmd": "^3.0.0",
     "randomstring": "^1.1.5"
   },
+  "keywords": [
+    "mongodb",
+    "commandline",
+    "cli",
+    "cmd",
+    "Bash",
+    "simple client",
+    "child-process"
+  ],
   "devDependencies": {
     "chai": "^4.2.0",
     "jest": "^24.8.0",
