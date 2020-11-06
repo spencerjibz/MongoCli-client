@@ -12,6 +12,7 @@ const os = require('os')
 let ErrorHandler = require('all-error-handler')
 // error handler 
 new ErrorHandler(v=>{
+    console.log(v)
     log(colors.red.bold(`command execution failed, check your parameters(arguments)`))
     process.exit()
 })
