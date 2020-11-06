@@ -1,0 +1,24 @@
+{
+  "name": "mongo-clientapp",
+  "version": "1.0.0",
+  "description": "this is command line tool for managing mongo database, it acts as a easier mongodb client ",
+  "preferGlobal": true,
+  "bin": {
+    "myapp": "./bin/app.js"
+  },
+  "scripts": {
+    "test": "jest --detectOpenHandles"
+  },
+  "author": "Spencer Najib",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "commander": "^2.19.0",
+    "find-process": "^1.2.1",
+    "inquirer": "^6.2.1",
+    "mongo-client": "^0.2.1",
+    "mongoose": "^5.7.10",
+    "node-cmd": "^3.0.0",
+    "randomstring": "^1.1.5"
+  }
+}
