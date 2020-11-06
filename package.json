@@ -1,24 +1,43 @@
 {
-  "name": "mongo-clientapp",
-  "version": "1.0.0",
-  "description": "this is command line tool for managing mongo database, it acts as a easier mongodb client ",
+  "name": "mongocli-client",
+  "author": "Spencer Najib <spencernajib2@gmail.com>",
+  "version": "0.8.4",
+  "description": "A simple command Line tool that manages your local or remote MongoDB instance. A client that adds,reads, updates and deletes content as well as other operations ",
   "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/spencerjibz/mongoCli-client.git#master"
+  },
+  "license": "MIT",
   "bin": {
-    "myapp": "./bin/app.js"
+    "mongoCli": "./bin/app.js"
   },
   "scripts": {
-    "test": "jest --detectOpenHandles"
+    "test": "jest"
   },
-  "author": "Spencer Najib",
-  "license": "MIT",
   "dependencies": {
+    "all-error-handler": "^1.4.0",
     "colors": "^1.3.3",
-    "commander": "^2.19.0",
-    "find-process": "^1.2.1",
-    "inquirer": "^6.2.1",
+    "commander": "^2.20.0",
+    "find-process": "^1.4.1",
+    "inquirer": "^6.3.1",
     "mongo-client": "^0.2.1",
-    "mongoose": "^5.7.10",
+    "mongoose": "^5.5.9",
     "node-cmd": "^3.0.0",
     "randomstring": "^1.1.5"
+  },
+  "keywords": [
+    "mongodb",
+    "commandline",
+    "cli",
+    "cmd",
+    "Bash",
+    "simple client",
+    "child-process"
+  ],
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "jest": "^24.8.0",
+    "mocha": "^6.1.4"
   }
 }
