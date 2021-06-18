@@ -4,7 +4,7 @@
  
 ### Requirements for usage
  - Nodejs  (v7 and higher) installed
- - Mongodb (local, v4.0.4 and less)
+ - Mongodb (local, v3.6 and less)
 ### Installation
  Before you install, ensure you  have nodejs v7.xx and higher.Command-line tool is available on the npm registry.<br>
  
