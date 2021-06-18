@@ -1,4 +1,5 @@
 ## MongoCli-client 
+[![Run tests](https://github.com/spencerjibz/mongoCli-client/actions/workflows/node.js.yml/badge.svg)](https://github.com/spencerjibz/mongoCli-client/actions/workflows/node.js.yml)
 
  A simple command-line client for mongodb built on top of mongoose and the native mongodb-driver.It was designed to simplify usage of mongodb and its tools(shell). Once installed globally. No need for a GUI client.
  
